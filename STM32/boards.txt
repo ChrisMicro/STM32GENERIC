@@ -675,6 +675,37 @@ DISCOVERY_F407VG.menu.serial.SerialUART2=SerialUART2 [PA2/PA3]
 DISCOVERY_F407VG.menu.serial.SerialUART2.build.extra_flags_serial=-DMENU_SERIAL=SerialUART2
 
 ################################################################################
+# Discovery F411VE board
+
+DISCOVERY_F411VE.name=Discovery F411VE
+
+DISCOVERY_F411VE.upload.maximum_size=524288
+DISCOVERY_F411VE.upload.maximum_data_size=131072
+
+DISCOVERY_F411VE.build.core=arduino
+DISCOVERY_F411VE.build.board=DISCO_F411VE
+
+DISCOVERY_F411VE.build.mcu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+DISCOVERY_F411VE.build.series=STM32F4
+DISCOVERY_F411VE.build.variant=DISCOVERY_F411VE
+DISCOVERY_F411VE.build.extra_flags=-DSTM32F411VE -DHSE_VALUE=8000000
+DISCOVERY_F411VE.build.f_cpu=100000000L
+
+DISCOVERY_F411VE.upload.protocol=STLink
+DISCOVERY_F411VE.upload.tool=stlink_upload
+
+DISCOVERY_F411VE.menu.usb.SerialUSB=Serial [Virtual COM port]
+DISCOVERY_F411VE.menu.usb.SerialUSB.build.extra_flags_usb=-DMENU_USB_SERIAL
+DISCOVERY_F411VE.menu.usb.SerialMSC=Mass storage [testing, see documentation]
+DISCOVERY_F411VE.menu.usb.SerialMSC.build.extra_flags_usb=-DMENU_USB_MASS_STORAGE
+DISCOVERY_F411VE.menu.usb.Disabled=Disabled, no USB
+
+DISCOVERY_F411VE.menu.serial.SerialUSB=SerialUSB
+DISCOVERY_F411VE.menu.serial.SerialUSB.build.extra_flags_serial=-DMENU_SERIAL=SerialUSB
+DISCOVERY_F411VE.menu.serial.SerialUART2=SerialUART2 [PA2/PA3]
+DISCOVERY_F411VE.menu.serial.SerialUART2.build.extra_flags_serial=-DMENU_SERIAL=SerialUART2
+
+################################################################################
 # Discovery F429ZI board
 
 DISCOVERY_F429ZI.name = Discovery F429ZI
