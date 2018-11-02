@@ -10,7 +10,7 @@
 #define LED_BUILTIN                 PD12 // 18
 #define LED_GREEN                   LED_BUILTIN
 #define LED_BLUE                    PD15 // 58
-#define LED_RED                     PD13 // 19
+#define LED_RED                     PD14 // 19
 #define LED_ORANGE                  PD13 // 57
 #define LED_RED_OTG_OVERCURRENT     PD5
 
