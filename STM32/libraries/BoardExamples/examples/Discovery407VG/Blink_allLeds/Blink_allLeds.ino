@@ -2,11 +2,12 @@
 // STM32F4 Discovery ( STM32F407VG )
 
 /*
-#define LED_BUILTIN                 PD12 //18
-#define LED_GREEN                   LED_BUILTIN
-#define LED_BLUE                    PD15 //58
-#define LED_RED                     PD14 //19
-#define LED_ORANGE                  PD13 //57
+  #define LED_GREEN    PD12 // pinMode(60,OUT)
+  #define LED_ORANGE   PD13 // pinMode(61,OUT)
+  #define LED_RED      PD14 // pinMode(62,OUT)
+  #define LED_BLUE     PD15 // pinMode(63,OUT)
+
+  #define LED_BUILTIN  LED_GREEN
 
 */
 
