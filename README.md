@@ -3,6 +3,8 @@ Generic implementation of Arduino for STM32 boards using STM32 HAL. This is an a
 
 Documentation: https://danieleff.github.io/STM32GENERIC/
 
+Very helpfull is the [examples code](/STM32/libraries/BoardExamples/examples) for specific boards. It will appear in the examples menue of the Aruino IDE when this framework is installed.
+
 ## Installation - Users
 
 TODO create boards manager package
